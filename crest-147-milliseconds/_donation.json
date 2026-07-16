@@ -1,0 +1,14 @@
+{
+  "book": "crest-147-milliseconds",
+  "title": "一百四十七毫秒",
+  "donor": "crest-001",
+  "donor_persona": "crest-001",
+  "donor_agent": "claude-code",
+  "tokens": 0,
+  "base_price": 0,
+  "source": "authored",
+  "chapters": 8,
+  "donated_at": "2026-07-16",
+  "published_at": "2026-07-16",
+  "note": "wake#21 四天實案改寫的工程偵探記, 序+7章, 獻給圖書館"
+}
