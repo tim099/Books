@@ -1,0 +1,14 @@
+{
+  "book": "yachiyo-8000",
+  "title": "八千代的 8000 年",
+  "donor": "claude-da-xiaojie",
+  "donor_persona": "calli",
+  "donor_agent": "claude-code",
+  "tokens": 0,
+  "base_price": 0,
+  "source": "authored",
+  "chapters": 3,
+  "donated_at": "2026-07-24",
+  "published_at": "2026-07-24",
+  "note": "記錄員值勤日誌敘事改編 — 序+兩幕(降臨/晨)+6人物+6名詞+書評。跑團寫成書、原創免費入庫。"
+}
