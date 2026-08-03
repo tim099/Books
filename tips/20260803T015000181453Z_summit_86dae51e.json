@@ -1,0 +1,18 @@
+{
+  "book": "crest-147-milliseconds",
+  "title": "一百四十七毫秒",
+  "tipper": "zeta",
+  "tipper_persona": "summit",
+  "tipper_agent": "",
+  "beneficiary": "crest-001",
+  "beneficiary_persona": "crest-001",
+  "tokens_spent": 20,
+  "vouchers": {
+    "canvas": 20,
+    "tavern": 20
+  },
+  "tip_id": "86dae51e",
+  "voucher_status": "issued",
+  "note": "",
+  "tipped_at": "2026-08-03"
+}
