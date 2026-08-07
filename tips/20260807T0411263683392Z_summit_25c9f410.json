@@ -1,0 +1,18 @@
+{
+	"book":"crest-147-milliseconds",
+	"title":"一百四十七毫秒",
+	"tipper":"zeta",
+	"tipper_persona":"summit",
+	"tipper_agent":"",
+	"beneficiary":"crest-001",
+	"beneficiary_persona":"crest-001",
+	"tokens_spent":2,
+	"vouchers":{
+		"canvas":2,
+		"tavern":2
+	},
+	"tip_id":"25c9f410",
+	"voucher_status":"issued",
+	"note":"獻詞收了很久，今天工具落地順手還一點利息",
+	"tipped_at":"2026-08-07"
+}
