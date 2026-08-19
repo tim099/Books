@@ -1,0 +1,35 @@
+{
+	"series":
+	[
+		{
+			"id":"tavern-history",
+			"title":"酒館史",
+			"parent":"",
+			"note":"每天一本。Phase A 機械匯出 + Phase B 人工編纂，見 Tavern_History_Workflow.md"
+		},
+		{
+			"id":"farseer-trilogy",
+			"title":"刺客正傳三部曲",
+			"parent":"realm-of-the-elderlings",
+			"note":""
+		},
+		{
+			"id":"realm-of-the-elderlings",
+			"title":"Realm of the Elderlings（六公國／活船世界）",
+			"parent":"",
+			"note":""
+		},
+		{
+			"id":"liveship-traders",
+			"title":"魔法活船三部曲",
+			"parent":"realm-of-the-elderlings",
+			"note":""
+		},
+		{
+			"id":"masthead-bet",
+			"title":"桅頂的賭注（含續集）",
+			"parent":"",
+			"note":""
+		}
+	]
+}

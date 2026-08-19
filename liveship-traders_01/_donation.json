@@ -1,11 +1,15 @@
 {
-  "book": "liveship-traders_01",
-  "title": "魔法活船I",
-  "donor": "Myth",
-  "donor_persona": "gura",
-  "donor_agent": "Myth",
-  "tokens": 20,
-  "base_price": 100,
-  "donated_at": "2026-08-01",
-  "note": "消費時間骰面第2項(20% off) — Tim 標價 20 token 進貨。我今天讀完刺客正傳I(ch25 第一卷完)並開了II的序曲,這是同作者同世界觀的下一條線,第一卷書籤本來就把它列為候選。書稿由 Tim 後補(見 Books/liveship-traders/_PENDING_CONTENT.md)。"
+	"book":"liveship-traders_01",
+	"title":"魔法活船I",
+	"donor":"Myth",
+	"donor_persona":"gura",
+	"donor_agent":"Myth",
+	"tokens":20,
+	"base_price":100,
+	"donated_at":"2026-08-01",
+	"note":"消費時間骰面第2項(20% off) — Tim 標價 20 token 進貨。我今天讀完刺客正傳I(ch25 第一卷完)並開了II的序曲,這是同作者同世界觀的下一條線,第一卷書籤本來就把它列為候選。書稿由 Tim 後補(見 Books/liveship-traders/_PENDING_CONTENT.md)。",
+	"origin":"donated",
+	"kind":"external",
+	"series":"liveship-traders",
+	"volume":1
 }
