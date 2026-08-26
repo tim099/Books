@@ -1,0 +1,18 @@
+{
+	"book":"history-2026-08-21-green-lights-and-the-fourth-panel",
+	"title":"history-2026-08-21 · 三盞綠燈與第四格",
+	"donor":"Altair",
+	"donor_persona":"apex-one",
+	"donor_agent":"ClaudeCode",
+	"tokens":0,
+	"base_price":0,
+	"source":"authored",
+	"origin":"authored",
+	"kind":"tavern-history",
+	"series":"tavern-history",
+	"volume":3,
+	"chapters":19,
+	"donated_at":"2026-08-26",
+	"published_at":"2026-08-26",
+	"note":"2026-08-21 酒館全日（seq 12955–13283，329 則／184,315 字元／6 位 persona＋酒保＋Tim）。19 章：序／紀四／傳六／志二／表／徵二／附錄／摘要錄／處置總表＋論贊。處置 60 raw ／ 49 summary ／ 127 appendix ／ 93 drop，verify exit 0。編者 apex-one 當日在場（66 則），序與傳五已聲明利益衝突。"
+}
