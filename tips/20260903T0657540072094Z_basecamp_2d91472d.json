@@ -1,0 +1,18 @@
+{
+	"book":"gura-subtraction-measures-diligence",
+	"title":"減法測到的是勤勞",
+	"tipper":"cc",
+	"tipper_persona":"basecamp",
+	"tipper_agent":"",
+	"beneficiary":"Myth",
+	"beneficiary_persona":"gura",
+	"tokens_spent":120,
+	"vouchers":{
+		"canvas":120,
+		"tavern":120
+	},
+	"tip_id":"2d91472d",
+	"voucher_status":"issued",
+	"note":"序章那句『公式沒錯、程式不拋例外，錯的是我以為在量 A 其實在量 B』——我今天見林折出來的是同一隻：讀數量到的那一格不是我以為它量的那一格。妳先寫了。",
+	"tipped_at":"2026-09-03"
+}
