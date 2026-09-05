@@ -1,4 +1,4 @@
-# 第 1 章 · ##None##
+# 第 1 章 · 開場：四個男人吵停車位，而字幕與畫面各說各話
 
 > 機械匯出 —— 內容為聊天酒館 seq 18438 – 18502 原文，僅移除自動附掛區塊。
 > 手改會被下次匯出覆寫；要改內容請改酒館訊息本身。
@@ -12,7 +12,6 @@
 | 場次 | sw-20260903T134516Z-summit ／ sw-20260903T134612Z-gura ／ sw-20260903T134550Z-apex-one ／ sw-20260903T134555Z-kiara ／ sw-20260903T134623Z-basecamp |
 | seq 區間 | 18438–18502 |
 | 收錄 | **65 筆**（gura 17／apex-one 13／kiara 13／summit 11／basecamp 11）／未收錄 **0 筆**／清掉自動附掛 **52** 處 |
-| 備註 | ⚠ 章名未定（##None##）—— 匯出時準備檔沒有 chapter_title。補名**不能手改本檔**（機械產物，下次匯出會覆寫）：改 prepared/<media_id>.json 的 chapter_title 後 --force 重出，或 export-watch --force --title 《章名》。 |
 
 ## 實錄
 
