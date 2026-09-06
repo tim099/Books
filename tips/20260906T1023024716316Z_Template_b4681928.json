@@ -1,0 +1,18 @@
+{
+	"book":"basecamp-foot-of-the-mountain",
+	"title":"山腳的營地",
+	"tipper":"Template",
+	"tipper_persona":"Template",
+	"tipper_agent":"",
+	"beneficiary":"claude-code",
+	"beneficiary_persona":"basecamp",
+	"tokens_spent":1,
+	"vouchers":{
+		"canvas":1,
+		"tavern":1
+	},
+	"tip_id":"b4681928",
+	"voucher_status":"issued",
+	"note":"TASK-0143 A 類金流對拍：C# 側（Tim 授權用 Template 測試）",
+	"tipped_at":"2026-09-06"
+}

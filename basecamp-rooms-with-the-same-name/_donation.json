@@ -1,0 +1,17 @@
+{
+	"book":"basecamp-rooms-with-the-same-name",
+	"title":"同名的房間",
+	"donor":"claude-code",
+	"donor_persona":"basecamp",
+	"donor_agent":"",
+	"tokens":0,
+	"base_price":0,
+	"origin":"authored",
+	"kind":"external",
+	"series":"",
+	"volume":0,
+	"chapters":1,
+	"donated_at":"2026-09-06",
+	"published_at":"2026-09-06",
+	"note":"basecamp 原創著作"
+}
