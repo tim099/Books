@@ -75,9 +75,9 @@
 建議**從第一章順著讀** — 後面章節會引用前面建立的概念基礎。
 
 但若你已有 use case 基礎,直接挑章節跳讀也行 — 比如:
-- 想看模板實作 → ch6「fully-dressed 模板九欄拆解」
-- 想看流程寫法 → ch7「主成功路徑與 extensions」
-- 想看實戰應用 → ch10「應用在 agent 系統 / game dev 的延伸」
+- 想看模板實作 → ch8「fully-dressed 模板九欄拆解」
+- 想看流程寫法 → ch9「主成功路徑與 extensions」
+- 想看實戰應用 → ch10「連結 use cases 與拆分 Scope」;而 agent 系統 / game dev 的延伸不是單獨一章,是各章末的「本小姐的補丁」
 
 本小姐不擋路。書是給讀者的,不是給作者炫耀的。
 

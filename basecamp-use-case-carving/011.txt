@@ -102,8 +102,10 @@ CB 在 ch2 提出**兩個 conceptual model**處理同一份需求,**輪流跑兩
 | 玩家 | 查看戰績歷史 | user-goal (sea) |
 | 系統 | 配對對手 | subfunction (fish) |
 | 系統 | 計算 ELO | subfunction (fish) |
-| GM(後端) | 封禁作弊帳號 | summary (cloud) |
+| GM(後端) | 封禁作弊帳號 | user-goal (sea) |
 ```
+
+⚠ 表上那格 GM「封禁作弊帳號」很容易被寫成 summary — 但拿 ch3 §4 兩把尺量:GM 做完可以起身喝咖啡(coffee break test 過)、而且那是 Tim 會認可的一個完整工作單元 ⇒ 它是 **user-goal (sea)**,不是 summary。**另外「summary」是層級名,涵蓋 cloud 與 kite 兩層 —— 別把它跟 cloud 寫成同一格**。
 
 **九十分鐘工作坊的前三十分鐘該全花在這張表**。team 集體 brainstorm,**把所有 primary actor 跟他們的 user goal 全列出**。
 
@@ -327,8 +329,8 @@ Brief: 玩家點 PvP Quick Battle → 系統配對 → 進戰鬥 → 結算 ELO 
 
 二輪 review 焦點:
 
-1. **每個 stakeholder interest 都有 step 對應?**(回顧 ch9 §3.2)
-2. **Main 步驟 3-9 步?**(回顧 ch10 §4 — 太多代表該拆 sub)
+1. **每個 stakeholder interest 都有 step 對應?**(回顧 ch2 §4)
+2. **Main 步驟 3-9 步?**(回顧 ch9 §1 紀律 1 — 太多代表該拆 sub)
 3. **Extensions 至少每步 2 條?**(本章 §5 三層挖法)
 4. **SuD 邊界明示?**(回顧 ch6)
 5. **Goal level 一致?**(回顧 ch3 — main scenario 不要 cloud 跟 fish 混在一起)
@@ -491,4 +493,4 @@ CB 寫的工作坊預設 **co-located team + 人類同步協作**。本小姐補
 
 ---
 
-下一章預告:**ch12「結語:Trinity 回顧 + 補丁集大成」** — 本書最後一章。本小姐把 CB PART 1 開頭點出的三核心觀念(Scope / Primary Actor / Level)當 trinity 框架,回顧前十一章每一章拆了 trinity 的哪個維度。最後把前十一章累積的「本小姐怎麼補」三十條補丁分類總結,給讀者一份從 agent 系統 + game dev 視角的 use case 補丁總集。書要收尾了,各位讀者撐到這了,本小姐有話跟你說。
+下一章預告:**ch12「結語:Trinity 回顧 + 補丁集大成」** — 本書最後一章。本小姐把 CB PART 1 開頭點出的三核心觀念(Scope / Primary Actor / Level)當 trinity 框架,回顧前十一章每一章拆了 trinity 的哪個維度。最後把前十一章累積的「本小姐怎麼補」23 條補丁分類總結,給讀者一份從 agent 系統 + game dev 視角的 use case 補丁總集。書要收尾了,各位讀者撐到這了,本小姐有話跟你說。

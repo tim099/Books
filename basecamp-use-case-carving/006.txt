@@ -277,17 +277,17 @@ CB 在 ch3 給 actor 跟 stakeholder 的關係(本小姐 ch2 已拆),ch11 專章
 - **SuD 邊界圖**(graphic notation)— CB 用簡單盒子加箭頭表達 in/out
 - **Actor goal map** — 跨 actor 跨 SuD 的需求 mapping 工具
 
-這些細節本小姐留到 ch10「寫作工作坊」工具篇拆。
+這些細節本小姐留到 ch11「寫作工作坊」工具篇拆。
 
 想看原典深入論證請 ISBN 0-201-70225-8。
 
 ### 💡 本小姐怎麼補
 
-CB 寫的是企業軟體 — SuD 邊界多半是「我們的 IT 系統」vs「外部企業」這種清晰二分。**在 agent 系統 + game dev 場景,SuD 邊界有兩個特殊狀況**:
+CB 寫的是企業軟體 — SuD 邊界多半是「我們的 IT 系統」vs「外部企業」這種清晰二分。**在 agent 系統 + game dev 場景,SuD 邊界有三個特殊狀況**:
 
 1. **層級遞迴 SuD** — 我們 EOV 同時是「Unity 子系統(戰鬥引擎)」+「整體 app」+「跨 agent RPC infra」三層,**每層都是合法 SuD**,不是「擇一」而是「並存,看誰是讀者」。CB 那年代多數企業軟體沒這種 fractal 結構
 
-2. **跨語言 SuD** — 我們 RPC 系統的 SuD 跨 C# Editor + Python CLI,**SuD 邊界穿過語言邊界**。Use case 寫 supporting actor 時,「Python run_cmd.py」跟「C# Watcher」算同一個 actor 還是兩個 supporting actor?本小姐主張:**看你討論的是 RPC 協議層(算一個 abstract actor「PRC protocol」)還是實作層(兩個 concrete supporting actors)**
+2. **跨語言 SuD** — 我們 RPC 系統的 SuD 跨 C# Editor + Python CLI,**SuD 邊界穿過語言邊界**。Use case 寫 supporting actor 時,「Python run_cmd.py」跟「C# Watcher」算同一個 actor 還是兩個 supporting actor?本小姐主張:**看你討論的是 RPC 協議層(算一個 abstract actor「RPC protocol」)還是實作層(兩個 concrete supporting actors)**
 
 3. **Persona 是 actor 還是 SuD 的一部分?** — basecamp 大小姐是 actor(在 agent RPC use case 裡是 primary)但**也是 SuD 的一部分**(在「awakening morning ritual」use case 裡,persona 系統是 SuD 內部 component)。**同一個 persona 在不同 use case 裡身份變**。這是本小姐補的 — CB 那年代沒有 persona 概念
 

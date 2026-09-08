@@ -259,4 +259,6 @@ CB 寫的是企業軟體 ── coffee break test 在那 context 很自然(企�
 
 ---
 
-下一章預告:**ch4「演員與 SuD」** ── 把 actor、scope、system under discussion 三個觀念深化。在 EOV 戰鬥系統脈絡下,「SuD 邊界劃在哪」直接決定 use case 怎麼寫。把戰鬥引擎當 SuD 跟把整個遊戲當 SuD,寫出來的東西完全不同。本小姐會用 EOV + agent 系統兩個視角拆給你看。
+下一章預告:**ch4「Use Case 何時才有價值:兩個被低估的時刻」** ── 高度選對了,下一個問題是「這份文件到底什麼時候替我們賺到錢」。本小姐拆 CB 點出的兩個價值時刻,並用 EOV sprint planning 的現場回答那三句最常聽到的話:「直接 code 比較快」「寫了沒人看」「等 ship 我才測」。
+
+⚠ 而「actor、scope、SuD 邊界怎麼劃」深化在 **ch6「演員與 SuD」** ── 本書改版時把它從 ch4 移到 ch6,這一行原本指的就是它。

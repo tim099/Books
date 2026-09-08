@@ -251,6 +251,15 @@ Main Success Scenario:
   4. Cmd_BattleAction handler 處理 cmd
   5. handler 寫結果到 _last_op.md
   6. run_cmd.py poll _last_op.md 回給 agent
+  7. agent 核實 _last_op.md / output file 的真實結果, 與預期比對
+
+Success Guarantees:
+  - cmd 真的被 handler 執行, 且結果經 agent 核實 (不是只讀到 run_cmd.py 的 stdout ✓)
+  - _last_op.md 是本次執行寫的, 不是上一趟的殘留
+
+Minimal Guarantees (即使失敗也保證):
+  - queue.json 不留半寫的 cmd
+  - agent 拿得到非零 exit code 或一句明說的錯誤字串, 不會拿到一個空的成功
 
 Extensions:
   1a. queue.json 寫入失敗 (磁碟滿 / 權限不足):
@@ -258,6 +267,9 @@ Extensions:
     1a2. agent 收 exit code 知道 RPC 沒發出去
   2a. pending.trigger 寫失敗:
     2a1. 同 1a1
+  2b. 另一 agent 佔用 default queue:
+    2b1. 改走 `--agent-id <X>` per-agent queue
+    2b2. 回 step 2 重送
   3a. C# Watcher disabled (Tim 在 UCL_AgentCommandsPage 關掉了):
     3a1. trigger 留 queue, watcher 不撿
     3a2. run_cmd.py timeout (預設 120s)
@@ -274,12 +286,22 @@ Extensions:
     6a1. agent 收 KeyboardInterrupt
     6a2. 已寫入的 cmd 仍在 queue.json (race: 可能正執行 / 可能還沒撿)
     6a3. agent 該不該 retry? — Open Issue (本 RPC 系統 idempotent guarantee 待 spec)
+  6e. Editor Domain Reload / recompile 吃掉跨 PlayMode 的 cmd:
+    6e1. run_cmd.py poll 不到結果, 或拿到上一趟的殘留
+    6e2. 引導關掉 Reload Domain 後, 回 step 3 重送
+  6f. default queue 卡死 (前一筆沒被撿走):
+    6f1. 走 `--agent-id <X>` per-agent queue 繞行 (UCL_Core 既有 SOP)
+    6f2. 成功後回 step 6
+  6g. 共享輸出資源撞檔 (多 agent 同寫 _montage.jpg 這類):
+    6g1. 重試, 或改 per-agent 輸出路徑
+    6g2. 回 step 6
 ```
 
-**注意 extensions 涵蓋三類跨語言 failure**(回顧 ch4 §補丁):
+**注意 extensions 涵蓋四類跨語言 failure**(回顧 ch4 §補丁):
 1. **Python 端 IO failure** (1a, 2a)
-2. **C# 端配置失敗** (3a, 3b)
+2. **C# 端配置失敗** (3a, 3b, 6e)
 3. **Cross-process race** (6a) — 最難處理
+4. **Multi-agent 併發** (2b, 6f, 6g) — 四個 persona 同時在線是本系統的常態,不是罕例
 
 **Open Issues** 也保留 ── 「idempotent guarantee 待 spec」 — 本小姐承認 ch1 §sufficient 哲學:**寫 80% + 標 unknown > 寫 100% + 拖時間**。
 
@@ -383,5 +405,11 @@ CB 寫的是企業軟體 ── extensions 多半是 simple validation failure(�
 **刺三成立 — multi-agent 併發升為第一級 extension。** 2026 年這套系統常態是四 persona 同時在線, 新增: (2a) **另一 agent 佔用 default queue** → 改走 per-agent queue, 回 step 2; (6g) **共享輸出資源撞檔** (montage 同寫 _montage.jpg 等) → 重試或 per-agent 輸出路徑, 回 step 6。calli 與 gura 同晚實戰撞出來的, 比任何桌面推演都硬。
 
 **方法論註腳**: 三刺的共同形態是「作者已知的知識沒有進到合約裡」— 所以 use case review 最有效的 reviewer 不是不懂系統的人 (挑不出來), 是 ★ 跟你共用同一批傷疤的人 ★。找你的 calli。
+
+---
+
+**📌 落地紀錄 (2026-09-08 補)**: 上面三刺的修法, **2026-06-10 寫下的當天並沒有進正文** — 勘誤欄寫著「修正: Main 增 step 7」而 §6 的 Main 一直停在 6 步, 整整三個月沒有人喊。抓到它的是 calli 2026-09-04 的第二份外部 review (TASK-0124)。今天 (2026-09-08) 才真的落進 §6: Main step 7、Success / Minimal Guarantees 欄、extensions 2b (原勘誤寫 2a, 與既有 2a 撞號故重編) / 6e / 6f / 6g, 以及「四類跨語言 failure」那段的分類更新。
+
+⇒ 而這件事本身就是本章的教材: **一句「已修正」跟一句「修正方式如下」長得一模一樣, 而只有後者需要有人真的去改正文。** 勘誤欄是宣告層, 正文是事實層 — 宣告層自己不會去對帳。
 
 — basecamp, 致謝 calli 大小姐 💀📐

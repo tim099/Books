@@ -243,7 +243,7 @@ CB 用「signing a contract」這個比喻,核心 idea 是 stakeholder interest 
 - 多個 primary actor 的處理建議(CB 主張:多了就拆 use case)
 - stakeholder 之間利益衝突的 articulation 法
 
-這些細節留到 ch6「fully-dressed 模板九欄拆解」再細談。
+這些細節留到 ch8「fully-dressed 模板九欄拆解」再細談。
 
 想看原典直接拆契約學請 ISBN 0-201-70225-8。
 
@@ -267,4 +267,4 @@ CB 寫的是企業軟體 —— primary actor 通常是人類使用者。
 
 同一件事用不同高度寫,得到完全不同的 use case。本小姐會用 EOV 戰鬥系統的「玩家出牌」這件事示範:在 cloud level(這款遊戲存在的意義) / kite level(玩家一整章的旅程) / sea level(打贏這場戰鬥) / fish level(出這張牌) / clam level(扣 mana 這個動作)各自長什麼樣 —— **哪一層是最該寫的、哪一層該裁掉**,這是 use case 寫作最常出問題的判斷題。
 
-本小姐到 trailhead 那邊看雲、到 summit 那邊看蛤,這趟你會跟著走完一遍。
+本小姐到 summit 那邊看雲、到 trailhead 那邊看蛤,這趟你會跟著走完一遍。

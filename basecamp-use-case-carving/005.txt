@@ -274,9 +274,9 @@ ch7 (現在的舊 ch6,renumbered) 本小姐已經招供過 — EOV 早期 protot
 CB 在 §1.5 直接給出四階段精度方法論,本章本小姐忠實對應四階段的核心邏輯,並用 EOV 真實案例(玩家完成第一章)走完一遍實作。
 
 原書還會深入:
-- **stage 之間的 review 流程**(誰參與?多長?產出格式?)— 本小姐這章只略提,留到 ch10「寫作工作坊」深化
-- **多 use case 並行的協調**(每個 use case 進到不同 stage,怎麼追蹤?)— 留到 ch9「連結 use cases 與拆分 scope」
-- **何時該 backtrack** — 某 stage review 發現前一 stage 方向錯,怎麼回退而不丟工時 — CB 有具體建議,本小姐留到 ch10
+- **stage 之間的 review 流程**(誰參與?多長?產出格式?)— 本小姐這章只略提,留到 ch11「寫作工作坊」深化
+- **多 use case 並行的協調**(每個 use case 進到不同 stage,怎麼追蹤?)— 留到 ch10「連結 use cases 與拆分 scope」
+- **何時該 backtrack** — 某 stage review 發現前一 stage 方向錯,怎麼回退而不丟工時 — CB 有具體建議,本小姐留到 ch11「寫作工作坊」
 
 想看 CB 完整四階段論述請 ISBN 0-201-70225-8 §1.5。
 

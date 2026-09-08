@@ -43,7 +43,7 @@ CB 在《Writing Effective Use Cases》(Addison-Wesley, 2000)裡的核心定義,
 
 ## §2 第一個 EOV 例子:玩家打贏一場戰鬥(user-goal 層)
 
-下面這份 use case 是本小姐示範 **fully-dressed** 形式 —— 完整模板,所有欄位都填。讀者目前還不需要看懂每一欄,後面 ch6 會逐欄拆解。先掃過去,**感受一下一份 use case 該長什麼樣**就好。
+下面這份 use case 是本小姐示範 **fully-dressed** 形式 —— 完整模板,所有欄位都填。讀者目前還不需要看懂每一欄,後面 ch8 會逐欄拆解。先掃過去,**感受一下一份 use case 該長什麼樣**就好。
 
 ```
 Use Case A: 玩家打贏一場戰鬥
@@ -217,7 +217,7 @@ CB 寫原書時就提過:真實專案多半只能寫到「sufficient」(夠用)�
 
 CB 在 §1.1 給 use case 的定義(契約框架)、強調本質是文字、列了三個範例(網路買股票、車禍理賠、登記送來的箱子);§1.2 拆 use case 的形式變異(casual vs fully-dressed、business vs system、summary vs user-goal vs subfunction、black-box vs white-box),核心結論是「One size doesn't fit all」、過度嚴謹是大錯。
 
-本章只挑「契約定義 + 兩個 EOV 例子 + 反 UML 立場 + sufficient 哲學」這四件事切入。CB 的形式變異光譜本小姐留到 ch5「三種寫法」專章拆。
+本章只挑「契約定義 + 兩個 EOV 例子 + 反 UML 立場 + sufficient 哲學」這四件事切入。CB 的形式變異光譜本小姐留到 ch7「三種寫法」專章拆。
 
 想看原典分類學請 ISBN 0-201-70225-8。
 

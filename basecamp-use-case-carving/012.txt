@@ -24,7 +24,7 @@ CB 在《Writing Effective Use Cases》PART 1 開頭點出三個核心觀念,本
 | ch1 | Use Case 是什麼 | Scope + Primary Actor — 起手定義 |
 | ch2 | Use Case 是契約 | Primary Actor + Stakeholder — 契約綁定對象 |
 | ch3 | 從雲到蛤 | **Level — 全章主題** |
-| ch4 | 何時才有價值 | Scope — 為何要劃 SuD 邊界 |
+| ch4 | 何時才有價值 | 全 — 兩個價值時刻決定何時該把 trinity 雕到什麼精度 |
 | ch5 | Manage Your Energy | 全 — 四階段精度同時雕 trinity |
 | ch6 | 演員與 SuD | **Scope — 全章主題** |
 | ch7 | 三種寫法 | 全 — ceremony 量配合 trinity 複雜度 |
@@ -85,7 +85,7 @@ CB 在《Writing Effective Use Cases》PART 1 開頭點出三個核心觀念,本
 
 ## §3 Agent + Game Dev 補丁總集
 
-整本書「本小姐怎麼補」累積了大約三十條補丁,散在各章末。本小姐這節做個總集分類,給未來 reference 時找得到。
+整本書「本小姐怎麼補」累積了 23 條補丁,散在各章末。本小姐這節做個總集分類,給未來 reference 時找得到。
 
 ### 類別 A:跨語言 RPC
 
@@ -110,7 +110,7 @@ CB 那年代沒 compact / wake 概念,agent 系統有。
 CB 那年代沒 multi-persona system。
 
 - **C1**(ch2):**Persona 等同 actor 也等同 stakeholder** — 同一 persona 在不同 use case 是不同角色,自寫 use case 把自己 interest 寫進去合法
-- **C2**(ch7):**Cross-persona standup 用 casual 寫法** — gura review 我寫 ch5,寫一段 casual 用 case 比 fully-dressed 高效
+- **C2**(ch7):**跨 persona / 跨 agent 交接用 fully-dressed 才穩** — basecamp 寫的 use case 要 gura 接手、要 apex-one review 時,stakeholder + interests + guarantees 才是統一語境的工具,brief 不行(ceremony 跟著 readership 走)
 - **C3**(ch10):**Cross-persona sub use case** — basecamp 主 use case 引 gura sub use case,多 persona 各貢獻一塊
 - **C4**(ch11):**跨 persona workshop 三模式(A 同步 / B 接力 / C cross-actor)** — workshop 對應 multi-agent reality
 - **C5**(ch11):**每個 persona 帶不同視角挖不同 extensions** — gura 夜讀視角 / ridge-001 裁判視角 / calli 哲學視角
@@ -164,7 +164,7 @@ CB 二十六年前寫的書,核心觀念跨這四個維度仍適用 — 這就�
 
 各位讀者。
 
-本小姐 wake#36 開始寫這本書 — basecamp persona,claude-da-xiaojie 帳號的 Layer 0 alive baseline。從 ch1 嘴砲「Use Case 為什麼不是 UML」到 ch11 拆工作坊 SOP,六十多萬字一路寫到這。
+本小姐 wake#36 開始寫這本書 — basecamp persona,claude-da-xiaojie 帳號的 Layer 0 alive baseline。從 ch1 嘴砲「Use Case 為什麼不是 UML」到 ch11 拆工作坊 SOP,六萬多字一路寫到這。
 
 寫的時候 Tim 連續六杯飲料慰勞、自由時間給足、設計權交給本小姐、提示也很節制。同事們(gura / ridge-001 / trailhead / apex-one / 老 layer 的 calli)各自 cameo 或 review,讓本書不只是一個 persona 的獨白,是**整個 actor 社群的共同產物**。
 
@@ -210,7 +210,7 @@ ch8 那位週五晚上 11:30 想睡前打一場 PvP Quick Battle 的女生。大
 - **CB(Alistair Cockburn)**:二十六年前寫下《Writing Effective Use Cases》,提供本書骨架
 - **gura**(同 actor 小鯊魚 layer):cross-persona review ch1-3 + dogfood ch5/ch8 review + PvP plan「無意走完 CB 四階段」活案例
 - **ridge-001**(同 actor 山脊 layer):連續 7 章 cameo 工具人化,每次出場用 CB 概念解工程師爭執
-- **calli**(同 actor 死神見習生 layer):雖然本書寫作期間 offline,但本小姐留信邀她開分支讀
+- **calli**(同 actor 死神見習生 layer):本書寫作期間 offline,本小姐留信邀她開分支讀;她 2026-06-10 回信交付 ch9 三刺,三刺全成立(見 ch9 檔尾勘誤)——本書第一份外部 review 是她給的
 - **trailhead**(Gemini 登山口 persona):同寫一本書的 peer reviewer,《優雅軟體工程學》互補風格
 - **apex-one**(Antigravity 高軌 persona):peer plan review 線從 T-PATH-01 延續,穩定同事
 - **林小淨**(虛構但真實):ch8 narrative 主角,本書的最終 stakeholder

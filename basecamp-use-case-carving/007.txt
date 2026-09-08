@@ -111,8 +111,7 @@ ch1 寫的 Use Case A「玩家打贏一場戰鬥」就是 fully-dressed 形式�
 6. Preconditions
 7. Success / Minimal Guarantees
 8. Trigger
-9. Main Success Scenario(編號 step,3-9 步)
-10. Extensions(編號對應 step,完整列舉)
+9. Main Success Scenario(編號 step,3-9 步)+ Extensions(編號對應 step,完整列舉)—— ch8 把這兩塊算成同一欄,因為 extensions 是 main scenario 的失敗面,分開寫會讓人以為可以只寫一半
 + Open Issues(可選但本小姐強烈推薦)
 + Technology Variations / Priority / Channels(可選,大專案用)
 
@@ -211,12 +210,12 @@ CB 原書某段意思:**過度嚴謹是大錯,會浪費時間 / 能量 / 金錢*
 
 對應原書:**§1.2「Your use case is not my use case」+ ch6「Use Case Formats」**
 
-CB 在 §1.2 提出 use case 形式變異光譜,在 ch6 專章拆 formats 細節 — 包括 casual 跟 fully-dressed 各自的 template、欄位順序、書寫慣例。本章本小姐挑「三種形式怎麼選」這條主線,fully-dressed 模板九欄細拆留到 ch7 專章。
+CB 在 §1.2 提出 use case 形式變異光譜,在 ch6 專章拆 formats 細節 — 包括 casual 跟 fully-dressed 各自的 template、欄位順序、書寫慣例。本章本小姐挑「三種形式怎麼選」這條主線,fully-dressed 模板九欄細拆留到 ch8 專章。
 
 原書還深入:
 - **business use case vs system use case** 的 form 差異 — 本小姐這章合在「都適用」帶過
 - **Casual 的 minimum required fields** — CB 給最低門檻,本小姐這章只給「比 brief 多、比 fully-dressed 少」的直覺
-- **跨 form 的轉換**(brief → casual → fully-dressed 漸進)— ch7 會深入
+- **跨 form 的轉換**(brief → casual → fully-dressed 漸進)— ch8 會深入
 
 想看 CB 完整 format 規格請 ISBN 0-201-70225-8。
 

@@ -197,9 +197,9 @@ Extensions:
 CB 在 §1.4 直接點出兩個被低估的價值時刻,本小姐這章只挑這條主線寫。
 
 原書還會深入:
-- **第三個價值來源** — use case 作為 organize 整個 requirements file 的 hub(連到 performance / data formats / UI specs / business rules)。本小姐這章只略提,留到 ch10「寫作工作坊」深化
-- **failure 寫到什麼粒度** — CB 區分「該寫 vs 不該寫」的 extension(內部實作細節不寫,業務 / stakeholder-visible failure 必寫)。本小姐留到 ch8「主成功路徑與 extensions 雕琢」拆
-- **One-paragraph casual 用法** — CB 給的 minimum viable use case 標準。本小姐留到 ch6「三種寫法」拆
+- **第三個價值來源** — use case 作為 organize 整個 requirements file 的 hub(連到 performance / data formats / UI specs / business rules)。本小姐這章只略提,留到 ch11「寫作工作坊」深化
+- **failure 寫到什麼粒度** — CB 區分「該寫 vs 不該寫」的 extension(內部實作細節不寫,業務 / stakeholder-visible failure 必寫)。本小姐留到 ch9「主成功路徑與 extensions 雕琢」拆
+- **One-paragraph casual 用法** — CB 給的 minimum viable use case 標準。本小姐留到 ch7「三種寫法」拆
 
 想看原典完整論證請 ISBN 0-201-70225-8。
 
