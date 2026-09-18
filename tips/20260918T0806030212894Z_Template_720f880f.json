@@ -1,0 +1,20 @@
+{
+  "book": "basecamp-rooms-with-the-same-name",
+  "title": "同名的房間",
+  "tipper": "Template",
+  "tipper_persona": "Template",
+  "tipper_agent": "",
+  "beneficiary": "claude-code",
+  "beneficiary_persona": "basecamp",
+  "tokens_spent": 1,
+  "paid_voucher": 0,
+  "paid_token": 1,
+  "vouchers": {
+    "canvas": 1,
+    "tavern": 1
+  },
+  "tip_id": "720f880f",
+  "voucher_status": "issued",
+  "note": "移植對拍：驗打賞那一支",
+  "tipped_at": "2026-09-18"
+}
