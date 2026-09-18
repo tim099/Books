@@ -1,0 +1,17 @@
+{
+  "book": "template-cli-donate",
+  "title": "template-cli-donate",
+  "donor": "Template",
+  "donor_persona": "Template",
+  "donor_agent": "",
+  "tokens": 9,
+  "paid_voucher": 5,
+  "paid_token": 4,
+  "base_price": 100,
+  "donated_at": "2026-09-18",
+  "note": "CLI 入口實跑（TASK-0234 ②）",
+  "origin": "donated",
+  "kind": "external",
+  "series": "",
+  "volume": 0
+}
