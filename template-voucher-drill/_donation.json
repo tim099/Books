@@ -1,0 +1,17 @@
+{
+  "book": "template-voucher-drill",
+  "title": "template-voucher-drill",
+  "donor": "Template",
+  "donor_persona": "Template",
+  "donor_agent": "",
+  "tokens": 20,
+  "paid_voucher": 12,
+  "paid_token": 8,
+  "base_price": 100,
+  "donated_at": "2026-09-18",
+  "note": "測試專用書 —— 之後的打賞／拆帳測試往這裡丟",
+  "origin": "donated",
+  "kind": "external",
+  "series": "",
+  "volume": 0
+}

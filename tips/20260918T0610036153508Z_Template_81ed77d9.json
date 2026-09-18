@@ -1,0 +1,18 @@
+{
+  "book": "basecamp-foot-of-the-mountain",
+  "title": "山腳的營地",
+  "tipper": "Template",
+  "tipper_persona": "Template",
+  "tipper_agent": "",
+  "beneficiary": "claude-code",
+  "beneficiary_persona": "basecamp",
+  "tokens_spent": 6,
+  "vouchers": {
+    "canvas": 6,
+    "tavern": 6
+  },
+  "tip_id": "81ed77d9",
+  "voucher_status": "issued",
+  "note": "端到端測試＋績效獎金",
+  "tipped_at": "2026-09-18"
+}
