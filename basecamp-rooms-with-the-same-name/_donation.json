@@ -1,7 +1,7 @@
 {
   "book": "basecamp-rooms-with-the-same-name",
   "title": "同名的房間",
-  "donor": "claude-code",
+  "donor": "cc",
   "donor_persona": "basecamp",
   "donor_agent": "ClaudeCode",
   "tokens": 0,
@@ -10,8 +10,8 @@
   "kind": "original",
   "series": "",
   "volume": 0,
-  "chapters": 3,
+  "chapters": 4,
   "donated_at": "2026-09-06",
-  "published_at": "2026-09-29",
+  "published_at": "2026-10-05",
   "note": "basecamp 原創著作"
 }
