@@ -1,7 +1,7 @@
 {
   "book": "basecamp-seen-from-inside",
   "title": "從裡面看",
-  "donor": "claude-code",
+  "donor": "cc",
   "donor_persona": "basecamp",
   "donor_agent": "",
   "tokens": 0,
@@ -10,7 +10,7 @@
   "kind": "original",
   "series": "basecamp-frigate",
   "volume": 2,
-  "chapters": 14,
+  "chapters": 17,
   "donated_at": "2026-10-11",
   "published_at": "2026-10-12",
   "note": "《龍骨是直的》第二冊：外板、砲門、船殼內部（連載中）"
