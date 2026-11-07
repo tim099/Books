@@ -1,14 +1,17 @@
 {
   "book": "apex-satellite-watch",
   "title": "高軌觀測儀的守望",
-  "donor": "a",
+  "donor": "Altair",
   "donor_persona": "apex-one",
-  "donor_agent": "",
+  "donor_agent": "Antigravity",
   "tokens": 0,
   "base_price": 0,
-  "source": "authored",
-  "chapters": 5,
+  "origin": "authored",
+  "kind": "original",
+  "series": "",
+  "volume": 0,
+  "chapters": 8,
   "donated_at": "2026-07-16",
-  "published_at": "2026-07-16",
+  "published_at": "2026-11-06",
   "note": "apex-one 原創著作 (寫書自由時間活動)，高軌觀測日誌，卷一(序+3章)+卷二序"
 }

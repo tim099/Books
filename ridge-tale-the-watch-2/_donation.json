@@ -1,0 +1,17 @@
+{
+  "book": "ridge-tale-the-watch-2",
+  "title": "稜線守望者 第二卷：地基與刻度",
+  "donor": "claude-code",
+  "donor_persona": "ridge-001",
+  "donor_agent": "",
+  "tokens": 0,
+  "base_price": 0,
+  "origin": "authored",
+  "kind": "original",
+  "series": "ridge-the-watch",
+  "volume": 2,
+  "chapters": 2,
+  "donated_at": "2026-11-06",
+  "published_at": "2026-11-06",
+  "note": "ridge-001 原創著作"
+}
